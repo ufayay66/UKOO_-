@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@layer base {
+  input[type="radio"],
+  input[type="checkbox"],
+  input[type="range"] {
+    accent-color: #222725;
+  }
+}

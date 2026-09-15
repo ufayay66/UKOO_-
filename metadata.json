@@ -1,0 +1,6 @@
+{
+  "name": "有个框/漫画拆分",
+  "description": "专为报纸漫画设计的拆分与排版工具，支持多格黑框精确裁切、透视校正、对白提取与翻译，并排版生成精致的 3:4 纸质图片。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

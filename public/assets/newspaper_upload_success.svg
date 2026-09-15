@@ -1,0 +1,79 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Accent Radiating Marks (Bottom-Left) -->
+  <path d="M 68 184 L 58 191" stroke="#1E2320" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M 62 200 L 50 208" stroke="#1E2320" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M 69 213 L 59 224" stroke="#1E2320" stroke-width="3.5" stroke-linecap="round" />
+
+  <!-- Accent Radiating Marks & Dots (Upper-Right of Checkmark) -->
+  <circle cx="228" cy="154" r="3" fill="#1E2320" />
+  <path d="M 238 153 L 247 141" stroke="#1E2320" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M 248 165 L 260 159" stroke="#1E2320" stroke-width="3.5" stroke-linecap="round" />
+  <path d="M 247 178 L 258 183" stroke="#1E2320" stroke-width="3.5" stroke-linecap="round" />
+
+  <!-- Accent Dot (Bottom-Right of Checkmark) -->
+  <circle cx="248" cy="228" r="3" fill="#1E2320" />
+
+  <!-- Main Newspaper Page (Tall rounded rectangle) -->
+  <g id="newspaper-page">
+    <!-- Outer newspaper border -->
+    <rect x="86" y="52" width="128" height="152" rx="18" stroke="#1E2320" stroke-width="4" fill="#FFFDF9" />
+
+    <!-- Newspaper Masthead Lines -->
+    <path d="M 100 70 H 198" stroke="#1E2320" stroke-width="3.5" stroke-linecap="round" />
+    <path d="M 100 78 H 162" stroke="#1E2320" stroke-width="2.2" stroke-linecap="round" />
+
+    <!-- 4 Comic Panels -->
+    <!-- Panel 1 (Top-Left): Smiley Face -->
+    <rect x="100" y="88" width="44" height="38" rx="6" stroke="#1E2320" stroke-width="2.5" fill="#FFFDF9" />
+    <circle cx="122" cy="107" r="9" stroke="#1E2320" stroke-width="2.2" fill="none" />
+    <circle cx="119" cy="105" r="1.3" fill="#1E2320" />
+    <circle cx="125" cy="105" r="1.3" fill="#1E2320" />
+    <path d="M 118.5 109 C 120 111.5 124 111.5 125.5 109" stroke="#1E2320" stroke-width="1.8" stroke-linecap="round" />
+
+    <!-- Panel 2 (Top-Right): Speech Bubble -->
+    <rect x="152" y="88" width="46" height="38" rx="6" stroke="#1E2320" stroke-width="2.5" fill="#FFFDF9" />
+    <!-- Speech bubble body & pointer tail -->
+    <path
+      d="M 158 95 H 190 C 192.2 95 194 96.8 194 99 V 110 C 194 112.2 192.2 114 190 114 H 172 L 166 119 V 114 H 162 C 159.8 114 158 112.2 158 110 V 99 C 158 96.8 159.8 95 162 95 Z"
+      stroke="#1E2320"
+      stroke-width="2"
+      stroke-linejoin="round"
+      fill="#FFFDF9"
+    />
+    <path d="M 164 102 H 186" stroke="#1E2320" stroke-width="1.8" stroke-linecap="round" />
+    <path d="M 164 107 H 178" stroke="#1E2320" stroke-width="1.8" stroke-linecap="round" />
+
+    <!-- Panel 3 (Bottom-Left): Text Lines -->
+    <rect x="100" y="134" width="44" height="42" rx="6" stroke="#1E2320" stroke-width="2.5" fill="#FFFDF9" />
+    <path d="M 108 145 H 136" stroke="#1E2320" stroke-width="2.2" stroke-linecap="round" />
+    <path d="M 108 154 H 132" stroke="#1E2320" stroke-width="2.2" stroke-linecap="round" />
+    <path d="M 108 163 H 124" stroke="#1E2320" stroke-width="2.2" stroke-linecap="round" />
+
+    <!-- Panel 4 (Bottom-Right): Character Silhouette (Behind checkmark badge) -->
+    <rect x="152" y="134" width="46" height="42" rx="6" stroke="#1E2320" stroke-width="2.5" fill="#FFFDF9" />
+    <!-- Silhouette head and body -->
+    <path
+      d="M 166 172 C 166 158 174 152 181 157 C 186 161 187 167 186 172 Z"
+      fill="#1E2320"
+      stroke="#1E2320"
+      stroke-width="1.5"
+      stroke-linejoin="round"
+    />
+  </g>
+
+  <!-- Large Overlapping Success Checkmark Badge (Bottom-Right) -->
+  <g id="success-badge">
+    <!-- Big Circle with Thick Stroke and Cream Fill -->
+    <circle cx="210" cy="198" r="37" stroke="#1E2320" stroke-width="4.5" fill="#FFFDF9" />
+    
+    <!-- Bold Hand-Drawn Black Checkmark -->
+    <path
+      d="M 189 198 L 204 213 L 230 180"
+      stroke="#1E2320"
+      stroke-width="7.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+    />
+  </g>
+</svg>
